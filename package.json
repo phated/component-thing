@@ -1,0 +1,29 @@
+{
+  "name": "component-thing",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo ./example/example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phated/component-thing.git"
+  },
+  "keywords": [],
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phated/component-thing/issues"
+  },
+  "homepage": "https://github.com/phated/component-thing#readme",
+  "dependencies": {
+    "bel": "^5.0.2",
+    "hyperx": "^2.3.0"
+  },
+  "devDependencies": {
+    "budo": "^10.0.3",
+    "nanocomponent": "^6.0.0-0"
+  }
+}
